@@ -1,0 +1,45 @@
+body{
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+    max-width: 700px;
+    padding: 20px;
+}
+h1{
+    text-align: center;
+    color: #7e0101;
+    font-family: 'Arial', sans-serif;
+    text-shadow: 1px 1px 2px #ccc;
+}
+.menu-list{
+    display: grid;
+    gap: 10px;
+    margin-top: 10px;
+}
+.card{
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    width: 250px;
+    margin: 0 auto 15px auto;
+    text-align: center;
+}
+.card h3 {
+    margin: 5px 0 5px;
+    font-size: 1.1rem;
+}
+.price {
+    font-weight: bold;
+    color: #e63946;
+    margin-bottom: 10px;
+}
+button {
+  background-color: #c2410c;
+  color: #ffffff;
+  border: none;
+  padding: 3px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #9a3412;
+}
